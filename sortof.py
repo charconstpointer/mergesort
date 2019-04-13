@@ -1,4 +1,6 @@
 import random
+
+
 def mergeSort(data):
     if len(data) <= 1:
         return data[0:int(len(data))]
@@ -30,4 +32,4 @@ def merge(a, b):
     return res
 
 
-print(mergeSort([random.random() for _ in range(100000)]))
+print(mergeSort([9, 9, 8, 7, 6, 5, 4, 4, 4, 3, 2, 4, 2, 1]))
